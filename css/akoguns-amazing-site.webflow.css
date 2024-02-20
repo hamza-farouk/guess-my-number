@@ -1,0 +1,145 @@
+:root {
+  --primary-color: #eee;
+  --color: #8a8686;
+}
+
+.w-layout-hflex {
+  flex-direction: row;
+  align-items: flex-start;
+  display: flex;
+}
+
+.page-wrapper {
+  padding: 1rem;
+}
+
+.top-content_wrapper {
+  justify-content: space-between;
+  padding: 1rem;
+}
+
+.body {
+  color: #eee;
+  background-color: #222;
+  font-family: "Pressstart 2 P", sans-serif;
+  font-size: 1rem;
+}
+
+.button {
+  background-color: var(--primary-color);
+  color: #000;
+  font-size: 1rem;
+}
+
+.button.top {
+  padding: 1rem;
+}
+
+.button.mid {
+  padding: 2rem;
+  font-size: 3rem;
+  position: absolute;
+  bottom: -41px;
+  left: 50%;
+  right: auto;
+}
+
+.button.form {
+  margin-top: 1rem;
+}
+
+.section_mid-layer {
+  margin-top: 8rem;
+}
+
+.mid-layer_wrapper {
+  flex-direction: column;
+  display: flex;
+}
+
+.horizontal-line {
+  height: 0.5rem;
+  background-color: var(--primary-color);
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+  position: relative;
+}
+
+.heading {
+  text-align: center;
+}
+
+.section_low {
+  margin-top: 4rem;
+}
+
+.low-content_wrapper {
+  justify-content: space-around;
+  align-items: stretch;
+}
+
+.low_player-details.top {
+  flex-direction: column;
+  justify-content: space-around;
+  display: flex;
+}
+
+.form-input-_wrapper {
+  position: relative;
+}
+
+.tiny-button {
+  color: #000;
+  background-color: #eee;
+  padding: 0;
+}
+
+.tiny-button:hover {
+  background-color: var(--color);
+}
+
+.tiny-button.invert {
+  transform: rotate(180deg);
+}
+
+.tiny-button.invert:hover {
+  background-color: var(--color);
+}
+
+.tiny-button_wrapper {
+  flex-direction: column;
+  justify-content: center;
+  display: flex;
+  position: absolute;
+  top: 0%;
+  bottom: 0%;
+  left: auto;
+  right: 5%;
+}
+
+.input-field {
+  width: 13rem;
+  height: 7rem;
+  color: #fff;
+  background-color: #161515;
+  border: 5px solid #fff;
+}
+
+.form-2 {
+  flex-direction: column;
+  align-items: center;
+  margin-top: 0;
+  display: flex;
+}
+
+.player-details_text {
+  margin-bottom: 10px;
+}
+
+@font-face {
+  font-family: "Pressstart 2 P";
+  src: url("../fonts/PressStart2P-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
